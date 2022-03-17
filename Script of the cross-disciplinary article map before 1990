@@ -8,7 +8,7 @@ library(biblionetwork)
 library("writexl")
 
 n02 = db567 
-#db567 est la data base de base
+#db567 est la database de base
 
 n03 <- tibble::rownames_to_column(n02, "Noeud") 
 #Associe à chaque article un identifiant unique
